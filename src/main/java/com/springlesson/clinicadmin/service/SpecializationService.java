@@ -47,4 +47,9 @@ public class SpecializationService {
 
         return specializationDtos;
     }
+
+    public List<Specialization> getAllSpecializations() {
+        List<Specialization> specializations = specializationRepository.findAll();
+        return specializations;
+    }
 }

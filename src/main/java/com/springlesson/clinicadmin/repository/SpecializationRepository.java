@@ -11,4 +11,5 @@ public interface SpecializationRepository extends JpaRepository<Specialization, 
     List<Specialization> findByIsActiveTrue ();
     List<Specialization> findByIsActiveFalse();
 
+
 }

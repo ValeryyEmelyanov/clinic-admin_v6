@@ -38,4 +38,6 @@ public class DoctorDto {
     public boolean isNotActive() {
         return !this.isActive;
     }
+
+
 }

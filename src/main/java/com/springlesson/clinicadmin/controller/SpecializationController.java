@@ -28,8 +28,14 @@ public class SpecializationController {
                 .build();
     }
 
+
+
     @GetMapping("/inactive")
     public List<SpecializationDto> getInactiveSpecializations() {
         return specializationService.getAllInactiveSpecializations();
     }
-    }
+
+
+
+
+}
